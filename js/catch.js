@@ -1,6 +1,6 @@
 $(function(){
     //najpierw co zmienić, potem jak zmienić
-    $('#page').css('background-color','#00ffff');
+    $('#page').css('background-color','white');
     //jak wskazać obiekt przez id
 
     $('h2').css('letter-spacing','5px');
