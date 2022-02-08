@@ -6,3 +6,4 @@ $(function () {
     $lista_ul = $('ul').text();
     $('p').append($lista_ul);
 });
+//dokładanie elementów przed znacznikiem zamykającym

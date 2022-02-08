@@ -11,3 +11,4 @@ $(function() {
     const $lista_li = $('#pierwszy').text();//wypisuje wszystkie
     console.log($lista_li);
 })
+//przechwytywanie kodu html

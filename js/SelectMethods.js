@@ -10,3 +10,4 @@ $(function () {
         'background-color': 'black',
     })
 })
+//sposoby wybierania elemnetów
