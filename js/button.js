@@ -1,9 +1,9 @@
-/*$(function kot() { //to też nie działa
-    $('ul').append('C++');
-});*/
+function kot() {
+    $('ul').append('<li> C++ </li>');
+};
 
-function kot()
+/*function kot()
 {
     alert("pies");
     //$('ul').append('C++');//gdy się to odkomentuje to nie działa
-}
+}*/
