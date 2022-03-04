@@ -1,0 +1,27 @@
+span{
+/*display:none;*/
+font-size:22px
+}
+#container {
+    width: 700px;
+    margin: 0 auto;
+}
+#page {
+    font-size: 150%;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid #4c285d;
+    background-color: violet;
+}
+#zew{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #ccccff;
+}
+#wew{
+    width: 60%;
+    height: 100px;
+    background-color: blue;
+    margin: 30px auto;
+}
