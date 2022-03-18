@@ -91,12 +91,14 @@ $(function (){
     });
 
 });
-function () {
-    $('img').show();
-};
-function hide() {
-    $('img').hide();
-};
-function toggle() {
-    $('img').toggle();
-};
+$(function () {
+    $('#show').on('click',function(){
+        $('img').show(100);
+    });
+    $('#hide').on('click',function(){
+        $('img').hide(100);
+    });
+    $('#toggle').on('click',function(){
+        $('img').toggle();
+    });
+});
