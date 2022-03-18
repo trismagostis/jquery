@@ -25,3 +25,35 @@ font-size:22px
     background-color: blue;
     margin: 30px auto;
 }
+#page1 {
+    font-size: 150%;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid #4c285d;
+    background-color: violet;
+}
+#page2 {
+    font-size: 150%;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid #4c285d;
+    background-color: violet;
+}#page3 {
+     font-size: 150%;
+     text-align: center;
+     padding: 20px;
+     border: 10px solid #4c285d;
+     background-color: violet;
+ }
+#container2 {
+    width: 700px;
+    margin: 0 auto;
+}
+#container3 {
+    width: 700px;
+    margin: 0 auto;
+}
+#container4 {
+    width: 700px;
+    margin: 0 auto;
+}

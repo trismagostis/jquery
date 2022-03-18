@@ -53,3 +53,50 @@ $(function(){
         $('span').eq(6).text(n+=1);
     });
 });
+$(function (){
+    $('input').on('keydown keyup keypress',function (){
+        $('span').eq(7).text(''+ event.type);
+    });
+    $('input').on('keydown  keypress',function (){
+        $('span').eq(8).text(''+ event.which);
+    });
+
+    $('h2').on('click dbclick mouseover mouseout',function (){
+        $('span').eq(7).text(''+event.type)
+        const target = $(event.target);
+        if (target.is('h2')) $('span').eq(8).text('Nie dotyczy');
+    });
+
+    $('input , h2').on('click', function (){
+       alert(event.target.nodeName);
+    });
+});
+$(function (){
+       $('h2').on('click',function (){
+        $('span').eq(7).text(''+event.type)
+        const target = $(event.target);
+        if (target.is('h2')) $('span').eq(8).text('Nie dotyczy');
+    });
+
+    $('input , h2').on('click', function (){
+        $('span').eq(9).text(event.target.nodeName);
+    });
+});
+$(function (){
+        $('h1 , h2, p, span ').on('click', function (){
+        alert(event.target.nodeName);
+    });
+    $('h1 , h2, p, span ').on('click', function (){
+        $('p').last().text(event.target.nodeName);
+    });
+
+});
+function () {
+    $('img').show();
+};
+function hide() {
+    $('img').hide();
+};
+function toggle() {
+    $('img').toggle();
+};
